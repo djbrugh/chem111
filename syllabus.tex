@@ -64,19 +64,6 @@
 \setsubsubsecheadstyle{\bfseries\normalsize\sffamily\raggedright}
 \renewcommand \thesection{\bfseries\arabic{section}}
 
-\makeatletter 
-\newcommand\addRevisionData{%
-\begin{picture}(0,0)% 
-    \put(-110,-5){%
-        \tiny% 
-        {%
-        {Published \today \enspace \copyright~Dale J. Brugh 
-        }
-}% 
-}%
-\end{picture}%
-}
-
 \flushbottom
 \setstocksize{11in}{8.5in}
 %\setlength{\parskip}{5pt}
@@ -101,7 +88,7 @@
 \makeheadrule{courseinformation}{\headwidth}{\normalrulethickness}
 \makeheadposition{courseinformation}{flushright}{flushleft}{flushleft}{flushleft}
 \makeoddhead{courseinformation}%
-    {\sffamily Course Syllabus: Chemistry 111 / Spring 2014}{}{\sffamily\thepage}
+    {\sffamily Course Syllabus: Chemistry 111 / Spring 2015}{}{\sffamily\thepage}
 
     %\makeevenfoot{courseinformation}{}{}{\addRevisionData}
     %\makeoddfoot{courseinformation}{}{}{\addRevisionData}
@@ -149,7 +136,7 @@
 \predate{}
 \postdate{\noindent\rule{\linewidth}{0.3pt}}
 
-\title{Chemistry 111 / Spring 2014}
+\title{Chemistry 111 / Spring 2015}
 \date{}
 \author{}
 
@@ -294,24 +281,29 @@ The \marginnote{-0.1in}{The final exam is given at the time specified by the Reg
 \section{Laboratory Scores}
 Your \marginnote{-0.1in}{I do not adjust laboratory scores. What you earn as a percentage is what will be included in your course score.} laboratory instructor is responsible for evaluating your laboratory work. He or she will assign a score to your laboratory work, and at the end of the course I will convert your laboratory score to a percentage that is included in the computation of your course score.
 
+%----------------------------------------------------------------------------
+% == COURSE SCORE ==
+%----------------------------------------------------------------------------
 \section{Course Score}
 Your course score is a weighted average of the scores you earn on exams, quizzes, exercise assignments, practice exercises, and laboratory work. These scores are weighted according to the percentages shown in Table~\ref{tab:weights}. Before calculating your course score,  \marginnote{-0.1in}{Your lowest quiz score, lowest 5 exercise assignment scores, and lowest 5 practice exercise scores are dropped.} I will throw away your lowest quiz score, your lowest five exercise assignment scores, and your lowest five practice exercise scores. 
-
 \begin{table}[h]
-\caption{\sffamily Weight of items contributing to your course score.}
+\caption{\sffamily Weight of evaluated items}
 \label{tab:weights}
 \begin{tabular}{r|l} \toprule
 \textbf{Evaluation Item} & \textbf{Weight} \\ \hline
-Exercise Assignments & 10\% \\
-Practice Exercises & 5\% \\
-Quizzes & 25\% \\
-Exams (3 @ 10\% each) & 30\% \\
+Exercise Assignments & 15\% \\
+Quizzes & 15\% \\
+Micro Exams & 15\% \\
+Exams & 24\% \\
 Final Exam & 20\% \\
-Laboratory & 10\% \\ 
+Laboratory & 11\% \\ 
 \bottomrule
 \end{tabular}
 \end{table}
 
+%----------------------------------------------------------------------------
+% == LETTER GRADE ==
+%----------------------------------------------------------------------------
 \section{Letter Grade}
 Letter grades are assigned at the end of the course according to the minimum course score requirements listed in Table~\ref{tab:lettergrades}. Course scores below $55\%$ are considered failing. Please see \href{http://dephlo.net/lettergrades}{dephlo.net/lettergrades} for more detail about how your course letter grade is determined. 
 
